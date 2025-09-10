@@ -1,0 +1,140 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #000;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background: #b4cc72a8; 
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #b4cc72a8;
+  text-decoration: underline;
+}
+
+
+.hero {
+  background: #b4cc72a8; 
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.btn {
+  background: white;
+  color: #4c5c57;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background: #b4cc72a8;
+  color: white;
+}
+
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* Skills */
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #b4cc72a8; 
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.skills-list li:hover {
+  background: #242a14a8;
+}
+
+
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  background: #b4cc72a8; 
+  color: white;
+}
+
+footer a {
+  color: #242a14a8;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: white;
+}
+
